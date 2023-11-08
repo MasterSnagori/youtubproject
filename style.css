@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: gilroy;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+#back{
+    width: 100%;
+    height: 100vh;
+
+}
+#back img{
+    width: 100%;
+    height: 100%;object-fit: cover;
+}
+#top{
+    pointer-events: none;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+#working-area{
+    width: 80%;
+    max-width: 1920px;
+    height: 100vh;
+    margin: 0 auto;
+
+    position: relative;
+}
+#nav{
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+#n-left{
+display: flex;
+align-items: center;
+/* justify-content: space-between; */
+gap: 60px;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 12px;
+font-weight: 600;
+letter-spacing: 1px;
+}
+#n-right{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 60px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+#n-left img{
+height: 60px;
+}
+#n-left a{
+    text-decoration: none;
+    text-transform: uppercase;
+    pointer-events: all;
+    color: #fff;
+    font-family: gilroy;
+}
+#n-right a{
+    text-decoration: none;
+    text-transform: uppercase;
+    pointer-events: all;
+    color: #fff;
+}
+#hero{
+    width: 100%;
+    /* height: 100px; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%, -40%);
+}
+#heroleft{
+    min-width: 50%;
+    /* background-color: yellow; */
+}
+#heroright{
+    /* height: 105vh; */
+    width: 20%;
+    /* background-color: green; */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#heroleft .elems :nth-child(1){
+    top: 0;
+}
+#heroleft .elems{
+    position: relative;
+    height: 9vw;
+    /* background-color: red; */
+    overflow: hidden;
+}
+#hero .elems h1{
+    position: absolute;
+    top: 100%;
+    left: 0;
+ font-family: "kajiro";
+color: #fff;
+font-weight: 100;
+font-size: 12vw;
+line-height: .9;
+}
+#heroleft button{
+    pointer-events: all;
+    padding: .8vw 3vw;
+    font-size: 3vw;
+    font-family: "kajiro";
+    margin-top: 2vw;
+}
+#hero #imagediv{
+    width: 100%;
+    height: 120px;
+    margin-top: 10px; 
+    margin-bottom: 20px;
+    background-size: cover;
+    background-image: url(https://media.istockphoto.com/id/1496615764/photo/cheerful-young-woman-with-eyeglasses-smiling-and-looking-at-camera.webp?b=1&s=170667a&w=0&k=20&c=6lBkFoVEGPrC87iy4zNldvnCUPFY3ta1MGxmHyTJzIA=);
+    background-position: center;
+}
+#heroright p{
+    text-align: right;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+#heroright p:nth-child(3){
+    margin-bottom: 30px;
+}
